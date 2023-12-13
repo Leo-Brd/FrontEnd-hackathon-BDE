@@ -9,12 +9,12 @@
     </div>
 
     <ul id="menu">
-      <li><a class="lien_pages" href="">Accueil</a></li>
+      <li><a class="lien_pages" href="/">Accueil</a></li>
       <li><a class="lien_pages" href="/Event">Evenements</a></li>
-      <li><a class="lien_pages" href="Offers.vue">Bons plans</a></li>
-      <li><a class="lien_pages" href="Members.vue">Membres</a></li>
-      <li><a class="lien_pages" href="Contact.vue">Contact</a></li>
-      <li><a class="lien_pages" @click="switchComponent">Boutique</a></li>
+      <li><a class="lien_pages" href="/Offers">Bons plans</a></li>
+      <li><a class="lien_pages" href="/Members">Membres</a></li>
+      <li><a class="lien_pages" href="/Contact">Contact</a></li>
+      <li><a class="lien_pages" href="/Shop">Boutique</a></li>
     </ul>
 
     <button id="account_btn">COMPTE</button>

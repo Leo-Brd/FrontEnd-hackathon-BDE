@@ -5,9 +5,7 @@
 </script>
 
 <template>
-    <Header />
     <Contact />
-    <Footer />
 </template>
 
 <style scoped>
