@@ -2,15 +2,15 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/Main_page.vue'),
+    component: () => import('layouts/Main_l.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: '/Main', component: () => import('pages/Main.vue') },
-      { path: '/Contact', component: () => import('pages/Contact.vue') },
-      { path: '/Event', component: () => import('pages/Event.vue') },
-      { path: '/Members', component: () => import('pages/Members.vue') },
-      { path: '/Offers', component: () => import('pages/Offers.vue') },
-      { path: '/Shop', component: () => import('pages/Shop.vue') }
+      { path: '', component: () => import('layouts/Main_l.vue') },
+      { path: '/Main', component: () => import('pages/Main_p.vue') },
+      { path: '/Contact', component: () => import('pages/Contact_p.vue') },
+      { path: '/Event', component: () => import('pages/Event_p.vue') },
+      { path: '/Members', component: () => import('pages/Members_p.vue') },
+      { path: '/Offers', component: () => import('pages/Offers_p.vue') },
+      { path: '/Shop', component: () => import('pages/Shop_p.vue') }
     ]
   },
 

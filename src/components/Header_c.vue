@@ -9,8 +9,8 @@
     </div>
 
     <ul id="menu">
-      <li><a class="lien_pages" href="Main.vue">Accueil</a></li>
-      <li><a class="lien_pages" href="Event.vue">Evenements</a></li>
+      <li><a class="lien_pages" href="">Accueil</a></li>
+      <li><a class="lien_pages" href="/Event">Evenements</a></li>
       <li><a class="lien_pages" href="Offers.vue">Bons plans</a></li>
       <li><a class="lien_pages" href="Members.vue">Membres</a></li>
       <li><a class="lien_pages" href="Contact.vue">Contact</a></li>
