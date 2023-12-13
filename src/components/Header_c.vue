@@ -16,7 +16,7 @@
       <li><a class="lien_pages" href="/Shop">Boutique</a></li>
     </ul>
 
-    <a class="account" href="/account">COMPTE</a>
+    <a class="account" href="/account">SE CONNECTER</a>
   </header>
 </template>
 
