@@ -1,13 +1,5 @@
 <script setup> /* BALISE SCRIPT POUR JAVASCRIPT */
-    var menu_toggle = document.querySelector('.menu_toggle');
-        var menu = document.querySelector('.menu');
-        var menu_toggle_span = document.querySelector('.menu_toggle span');
-
-        menu_toggle.onclick = function(){
-            menu_toggle.classList.toggle('active');
-            menu_toggle_span.classList.toggle('active');
-            menu.classList.toggle('responsive') ;
-        }
+    
 </script>
 
 <template>
@@ -33,14 +25,16 @@
 </template>
 
 <style scoped>
+
     #contact {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 0 12%;
+    margin-top: 25vh;
     
 }
 .localisation_contact_div {
@@ -61,7 +55,6 @@
     width: 100%;
     border-radius: 6px;
 }
-
 .localisation_contact_div .form_contact {
     width: 49%;
     height: 100%;
