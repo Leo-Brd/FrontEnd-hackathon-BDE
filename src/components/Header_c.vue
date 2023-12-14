@@ -69,7 +69,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  left: 10px;
+  left: 10%;
 }
 #bde {
   color: black;
@@ -130,7 +130,7 @@ header {
   text-decoration: none;
   margin: 0px 0px 0px 0px;
   padding: 10px 20px;
-  right: 10px;
+  right: 5%;
 }
 
 #login{
