@@ -1,6 +1,8 @@
 <template>
     <div class="container">
+        
     <div class="q-pa-md" style="max-width: 400px">
+        <h1 class="title">Connectez-vous</h1>
   
       <q-form
         @submit="onSubmit"
@@ -9,18 +11,17 @@
       >
         <q-input
           filled
-          v-model="name"
-          label="Your Name"
-          hint="Name and surname"
+          v-model="mail"
+          label="Votre Mail Estiam"
           lazy-rules
-          :rules="[ val => val && val.length > 0 || 'Please type something']"
+          :rules="[ val => val && val.length > 0 || 'Please type something@estiam.com']"
         />
   
         <q-input
           filled
           type="password"
           v-model="age"
-          label="Your Password"
+          label="Votre Mot de passe"
           lazy-rules
           :rules="[
             val => val !== null && val !== '' || 'Please type your Password',
@@ -28,11 +29,11 @@
           ]"
         />
   
-        <q-toggle v-model="accept" label="I accept the license and terms" />
+        <q-toggle v-model="accept" label="J'accepte la license et les termes du contrat" />
   
         <div>
-          <q-btn label="Submit" type="submit" color="primary"/>
-          <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
+          <q-btn label="Se connecter" href="/" type="submit" color="primary"/>
+          <q-btn label="Annuler" href="/" type="reset" color="primary" flat class="q-ml-sm" />
         </div>
       </q-form>
   
@@ -89,6 +90,17 @@
   <style scoped>
   .container{
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-center;
+  }
+
+  .q-pa-md{
+    margin-top: 20vh;
+    margin-left: 80vh;
+  }
+
+  .title{
+    font-size:30px;
+    color: purple;
+    margin-left: 6.5vh;
   }
 </style>
