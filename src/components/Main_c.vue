@@ -6,7 +6,7 @@
     <section id="home">
         <div class="left">
             <h1>Bienvenue sur le site officiel du <span>BDE de l'éstiam</span></h1>
-            <p>Ce site vous permet de découvrir l'Histoire de l'école, de ses étudiants ainsi que de rentrer en contact avec eux. Vous pouvez également accéder à notre boutique en ligne, et vous inscrire pour de prochains évènements qui seront communiquer sur ce site.</p>
+            <p>Ce site vous permet de découvrir l'Histoire de l'école, de ses étudiants ainsi que de rentrer en contact avec eux. Vous pouvez également accéder à notre boutique en ligne, et vous inscrire pour de prochains évènements qui seront communiqués sur ce site.</p>
         </div>
         
         <div class="right">
