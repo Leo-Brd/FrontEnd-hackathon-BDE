@@ -27,24 +27,40 @@
     <div class="q-pa-md row items-center justify-around q-gutter-md">
       <q-card class="my-card" flat bordered>
         <img
-          src="https://img.freepik.com/photos-premium/portrait-deux-hommes-affaires-discutant-du-travail-lors-reunion-dans-hall-hotel-luxe-espace-pour-copie_236854-32175.jpg?w=1800"
+          src="../assets/img/salwa.png"
         />
 
         <q-list>
           <q-item clickable>
             <q-item-section avatar>
-              <q-icon color="primary" name="local_bar"></q-icon>
+              <q-icon color="primary" name="person_outline"></q-icon>
             </q-item-section>
 
             <q-item-section>
-              <q-item-label>Aziz Aloui</q-item-label>
-              <q-item-label caption>Responsable Event.</q-item-label>
+              <q-item-label>Salwa Adjar</q-item-label>
+              <q-item-label caption>Présidente</q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
       </q-card>
       <q-card class="my-card" flat bordered>
-        <img src="https://cdn.quasar.dev/img/parallax2.jpg" />
+        <img src="../assets/img/Snapchat-69.jpg" style="max-width: 100%" />
+
+        <q-list>
+          <q-item clickable>
+            <q-item-section avatar>
+              <q-icon color="primary" name="person_outline"></q-icon>
+            </q-item-section>
+
+            <q-item-section>
+              <q-item-label>Quentin RAILLARD</q-item-label>
+              <q-item-label caption>vice-président</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-card>
+      <q-card class="my-card" flat bordered>
+        <img src="../assets/img/aziz.png" />
 
         <q-list>
           <q-item clickable>
@@ -54,23 +70,7 @@
 
             <q-item-section>
               <q-item-label>Aziz Aloui</q-item-label>
-              <q-item-label caption>Responsable Event.</q-item-label>
-            </q-item-section>
-          </q-item>
-        </q-list>
-      </q-card>
-      <q-card class="my-card" flat bordered>
-        <img src="https://cdn.quasar.dev/img/parallax2.jpg" />
-
-        <q-list>
-          <q-item clickable>
-            <q-item-section avatar>
-              <q-icon color="primary" name="local_bar"></q-icon>
-            </q-item-section>
-
-            <q-item-section>
-              <q-item-label>Aziz Aloui</q-item-label>
-              <q-item-label caption>Responsable Event.</q-item-label>
+              <q-item-label caption>Responsable Event</q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
@@ -80,34 +80,34 @@
     <div class="q-pa-md row items-center justify-evenly q-gutter-md">
       <q-card class="my-card" flat bordered>
         <img
-          src="https://img.freepik.com/photos-premium/portrait-deux-hommes-affaires-discutant-du-travail-lors-reunion-dans-hall-hotel-luxe-espace-pour-copie_236854-32175.jpg?w=1800"
+          src="../assets/img/elouann.png"
         />
 
         <q-list>
           <q-item clickable>
             <q-item-section avatar>
-              <q-icon color="primary" name="local_bar"></q-icon>
+              <q-icon color="primary" name="account_balance"></q-icon>
             </q-item-section>
 
             <q-item-section>
-              <q-item-label>Aziz Aloui</q-item-label>
-              <q-item-label caption>Responsable Event.</q-item-label>
+              <q-item-label>Elouann HOSTA</q-item-label>
+              <q-item-label caption>Responsable Trésorerie</q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
       </q-card>
       <q-card class="my-card" flat bordered>
-        <img src="https://cdn.quasar.dev/img/parallax2.jpg" />
+        <img src="../assets/img/lise.png" />
 
         <q-list>
           <q-item clickable>
             <q-item-section avatar>
-              <q-icon color="primary" name="local_bar"></q-icon>
+              <q-icon color="primary" name="groups"></q-icon>
             </q-item-section>
 
             <q-item-section>
-              <q-item-label>Aziz Aloui</q-item-label>
-              <q-item-label caption>Responsable Event.</q-item-label>
+              <q-item-label>Lise BENOIT</q-item-label>
+              <q-item-label caption>Responsable Communication</q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
