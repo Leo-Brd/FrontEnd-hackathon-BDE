@@ -3,70 +3,68 @@
 </script>
 
 <template> <!-- BALISE TEMPLATE POUR HTML -->
-<footer id="footer">
-    <div id="pages">
-        <a href="App.vue">Accueil</a>
-        <a href="Event.vue">Evenements</a>
-        <a href="Offers.vue">Bons plans</a>
-        <a href="Members.vue">Membres</a>
-        <a href="Contact.vue">Contact</a>
-        <a href="Shop.vue">Boutique</a>
-    </div>
-    <div id="contacts">
-        Address : 29 avenue Leclerc
-        Number : 04 28 29 25 75
-        City : 69007 Lyon
-        Mail : bde.estiam.lyon7@gmail.com
-    </div>
-    <div id="reseaux">
-        <a href="https://www.instagram.com/bde.estiam_lyon">Instagram</a>
-        <a href="https://discord.com/invite/wwKDpn7r">Discord</a>
-        <a href="https://www.facebook.com/profile.php/?id=100068550985078&name=xhp_nt__fb__action__open_user&locale=fr_FR">Facebook</a>
-    </div>
-
+<footer>
+  <div class="section">
+      <a class="lien_pages" href="/">Accueil</a>
+      <a class="lien_pages" href="/Event">Evenements</a>
+      <a class="lien_pages" href="/Offers">Bons plans</a>
+      <a class="lien_pages" href="/Members">Membres</a>
+      <a class="lien_pages" href="/Contact">Contact</a>
+      <a class="lien_pages" href="/Shop">Boutique</a>
+  </div>
+  <p>copyright estiam 2023 - Powered by Quasar</p>
 </footer>
 </template>
 
 <style scoped> /* BALISE SCRIPT POUR CSS */
 footer {
-    display: flex;
-    margin-top: auto;
-    position: fixed;
-    background-color: #6231C6;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 5px;
-    color: #fff;
-    font-size: 20px;
-    bottom: 0;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  display: block;
+  position: relative;
+
+  width: 100%;
+  height: 200px;
+
+  font-size: 20px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
-#pages {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    display: inline-block;
+p {
+  width: 100%;
+  color: black;
+  position: absolute;
+  bottom: 0;
 }
 
-#contacts {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    display: inline-block;
+a {
+  color: black;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
-#reseaux {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    display: inline-block;
+a:hover {
+  color: black;
+  padding: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
-#footer{
-    text-align: center;
-    display:flex;
-    justify-content: center;
-    
+.section {
+  position: absolute;
+  background-color: white;
+  justify-content: center;
+  width: calc(100% - 40px);
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
 }
+
 </style>

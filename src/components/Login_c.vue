@@ -96,6 +96,7 @@
   .q-pa-md{
     margin-top: 20vh;
     margin-left: 80vh;
+    margin-bottom: 30vh;
   }
 
   .title{
