@@ -3,9 +3,6 @@
 
 <template>
     <div>
-        <div>
-            <img src="../assets/img/page-acceuil.png" alt="Image d'accueil" class="img_1">
-        </div>
 
         <div class="reductions">
             <img src="../assets/img/réductions1.png" alt="Réduction 1" class="img_2">
@@ -79,5 +76,9 @@
 .img_2{
     height: 100vh;
     width: 200vh;
+}
+
+.reductions{
+    margin-top: 15vh;
 }
 </style>

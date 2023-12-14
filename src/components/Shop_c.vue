@@ -65,13 +65,11 @@
 
 <style scoped>
 
-
-
 .section_title {
     text-transform: uppercase;
     position: relative;
     font-size: 25px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .section_title:before {
     position: absolute;
@@ -107,6 +105,7 @@ h1{
     width: 100%;
     margin: 100px auto;
     padding: 8%;
+    margin-top: 0vh;
 }
 .images li {
     display: flex;
@@ -123,6 +122,7 @@ h1{
     height: 87%;
     margin-bottom: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
 }
 .images li div img {
     height: 100%;

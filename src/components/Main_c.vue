@@ -6,11 +6,11 @@
     <section id="home">
         <div class="left">
             <h1>Bienvenue sur le site officiel du <span>BDE de l'éstiam</span></h1>
-            <p>Ce site vous permet de découvrir l'Histoire de l'école, de ses étudiants ainsi que de rentrer en contact avec eux. Vous pouvez également accéder à notre boutique en ligne, et vous inscrire pour de prochains évènements qui seront communiqués sur ce site.</p>
+            <p>Ce site vous permet de découvrir le BDE de l'Estiam, ses étudiants ainsi que de rentrer en contact avec eux. Vous pouvez également accéder à notre boutique en ligne et vous inscrire pour de prochains évènements qui seront communiqués sur ce site.</p>
         </div>
         
         <div class="right">
-            <img src="../assets/img/page-acceuil.png">
+            <img alt="image d'accueil" src="../assets/img/page-acceuil.png">
         </div>
     </section>
 </template>
