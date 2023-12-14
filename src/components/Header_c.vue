@@ -1,13 +1,5 @@
 <script setup> /* JAVASCRIPT */
-  import { ref } from 'vue';
 
-// Utilisation de ref pour créer une réactivité
-const isCodeVisible = ref(false);
-
-// Méthode pour basculer la visibilité du code
-const toggleCodeVisibility = () => {
-  isCodeVisible.value = !isCodeVisible.value;
-};
 </script>
 
 
@@ -25,8 +17,10 @@ const toggleCodeVisibility = () => {
       <li><a class="lien_pages" href="/Shop">Boutique</a></li>
     </ul>
 
-    <a class="account" href="/login" @click="toggleCodeVisibility">SE CONNECTER</a>
+    <a class="account" href="/Login" >SE CONNECTER</a>
   </header>
+
+<div id="login">
   <div v-if="isCodeVisible" class="q-pa-md" style="max-width: 400px">
 
 <q-form
@@ -63,6 +57,7 @@ const toggleCodeVisibility = () => {
   </div>
 </q-form>
 
+</div>
 </div>
 </template>
 
@@ -135,5 +130,9 @@ header {
   margin: 0px 0px 0px 0px;
   padding: 10px 20px;
   right: 10px;
+}
+
+#login{
+  margin-left:100 vh;
 }
 </style>
