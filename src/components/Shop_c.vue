@@ -35,7 +35,7 @@
                     <div>
                         <img src="../assets/img/casquette.jpg" alt="casquette">
                     </div>
-                    <span>T-SHIRT</span>
+                    <span>CASQUETTE</span>
                     <span class="prix">20€</span>
                     <a href="#">ACHETER MAINTENANT</a>
                  </li>
@@ -43,7 +43,7 @@
                     <div>
                         <img src="../assets/img/mug.jpg" alt="mug">
                     </div>
-                    <span>T-SHIRT</span>
+                    <span>MUG</span>
                     <span class="prix">20€</span>
                     <a href="#">ACHETER MAINTENANT</a>
                  </li>
