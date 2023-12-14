@@ -17,9 +17,9 @@
         <q-carousel-slide :name="2" img-src="../assets/img_page_event/1_2.png" class="carousel-image"/>
         <q-carousel-slide :name="3" img-src="../assets/img_page_event/1_3.png" class="carousel-image"/>
       </q-carousel>
-      <q-btn color="purple" label="Se renseigner" href="https://www.instagram.com/p/C0MhpAANOR6/?hl=fr"/>
     </div>
-    <div class="q-pa-md">
+    <q-btn class ="btn" color="purple" label="Se renseigner" href="https://www.instagram.com/p/C0MhpAANOR6/?hl=fr"/>
+    <div id="second_carousel" class="q-pa-md">
       <q-carousel
         animated
         v-model="slide"
@@ -36,9 +36,9 @@
         <q-carousel-slide :name="2" img-src="../assets/img_page_event/2_2.png" class="carousel-image"/>
         <q-carousel-slide :name="3" img-src="../assets/img_page_event/2_3.png" class="carousel-image"/>
       </q-carousel>
-      <q-btn color="purple" label="Se renseigner" href="https://www.instagram.com/p/Cz5yPURtUQ6/?hl=fr"/>
+      <q-btn class="btn" color="purple" label="Se renseigner" href="https://www.instagram.com/p/Cz5yPURtUQ6/?hl=fr"/>
     </div>
-    <div class="q-pa-md">
+    <div id="third_carousel" class="q-pa-md">
       <q-carousel
         animated
         v-model="slide"
@@ -57,7 +57,7 @@
       </q-carousel>
       <q-btn color="purple" label="Se renseigner" href="https://www.instagram.com/p/Cz3a91ptk2C/?hl=fr"/>
     </div>
-    <div class="q-pa-md">
+    <div id="fourth_carousel" class="q-pa-md">
       <q-carousel
         animated
         v-model="slide"
@@ -96,6 +96,7 @@
 <style scoped>
     #first_carousel{
         margin-top: 12vh;
+        margin-left: 0vh;
     }
 
     .carousel-image {
@@ -105,11 +106,6 @@
   height: auto; 
   margin-left: 29vh;
   border-radius: 6%;
-  }
-
-  #template{
-    
-
   }
   
 </style>
