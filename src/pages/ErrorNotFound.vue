@@ -6,7 +6,7 @@
       </div>
 
       <div class="text-h2" style="opacity:.4">
-        Ca marche pas sa mere la pute
+        Votre BDE vous souhaite de trouver la solution ;-)
       </div>
 
       <q-btn
