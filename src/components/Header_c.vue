@@ -115,7 +115,6 @@ header {
 }
 
 #menu li a:hover {
-  font-size: 20px;
   font-weight: 300;
   list-style: none;
   color: #6231c6;

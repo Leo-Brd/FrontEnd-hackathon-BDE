@@ -3,23 +3,17 @@
 
 <template>
     <div>
-        <h1>PAGE BONS PLANS</h1>
-        <h1>Profitez de <span>Réductions </span>toute l'année</h1>
-        <p>Plein de réductions toute l'année</p>
         <div>
-            <img src="../assets/img/page-acceuil.png" alt="Image d'accueil">
+            <img src="../assets/img/page-acceuil.png" alt="Image d'accueil" class="img_1">
         </div>
 
         <div class="reductions">
-            <img src="../assets/img/réductions1.png" alt="Réduction 1">
-            <img src="../assets/img/réduction2.png" alt="Réduction 2">
-            <img src="../assets/img/réductions3.png" alt="Réduction 3">
+            <img src="../assets/img/réductions1.png" alt="Réduction 1" class="img_2">
+            <img src="../assets/img/réduction2.png" alt="Réduction 2" class="img_2">
+            <img src="../assets/img/réductions3.png" alt="Réduction 3" class="img_2">
         </div>
     </div>
 
-    <footer>
-        <p> BDE éstiam Copyright 2022 </p>
-    </footer>
 </template>
 
 <style scoped>
@@ -75,4 +69,15 @@
     width: 100%;
 }
 
+.img_1{
+    height: 100vh;
+    width: 100vh;
+    margin-left: 50vh;
+    margin-top: 10vh;
+}
+
+.img_2{
+    height: 100vh;
+    width: 200vh;
+}
 </style>

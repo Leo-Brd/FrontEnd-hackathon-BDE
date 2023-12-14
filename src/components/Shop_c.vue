@@ -3,8 +3,6 @@
 </script>
 
 <template>
-    <h1>PAGE SHOP</h1>
-
     <section id="products">
         <h1 class="section_title">Nos produits</h1>
         <div class="images">
@@ -69,7 +67,32 @@
 
 
 
-
+.section_title {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.section_title:before {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    content: "";
+    background-color: #6231C6;
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
+.section_title:after {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content: "";
+    background-color: #6231C6;
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+}
 
 
 
