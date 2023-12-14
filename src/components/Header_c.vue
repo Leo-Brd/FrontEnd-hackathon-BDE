@@ -115,10 +115,11 @@ header {
 }
 
 #menu li a:hover {
-  font-size: large;
+  font-size: 20px;
   font-weight: 300;
   list-style: none;
   color: #6231c6;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .account {
@@ -134,5 +135,10 @@ header {
 
 #login{
   margin-left:100 vh;
+}
+
+.lien_pages:hover{
+  margin-top: 10vh;
+  text-decoration: underline;
 }
 </style>
