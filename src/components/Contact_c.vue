@@ -35,6 +35,7 @@
     text-align: center;
     padding: 0 12%;
     margin-top: 25vh;
+    margin-bottom: 25vh;
     
 }
 .localisation_contact_div {
