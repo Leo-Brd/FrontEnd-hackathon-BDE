@@ -26,7 +26,7 @@
   <div id="q-app" style="min-height: 100vh">
     <div class="q-pa-md row items-center justify-around q-gutter-md">
       <q-card class="my-card" flat bordered>
-        <img
+        <img alt="salwa"
           src="../assets/img/salwa.png"
         />
 
@@ -44,7 +44,7 @@
         </q-list>
       </q-card>
       <q-card class="my-card" flat bordered>
-        <img src="../assets/img/Snapchat-69.jpg" style="max-width: 100%" />
+        <img alt="quentin" src="../assets/img/Snapchat-69.jpg" style="max-width: 100%" />
 
         <q-list>
           <q-item clickable>
@@ -60,7 +60,7 @@
         </q-list>
       </q-card>
       <q-card class="my-card" flat bordered>
-        <img src="../assets/img/aziz.png" />
+        <img alt="aziz" src="../assets/img/aziz.png" />
 
         <q-list>
           <q-item clickable>
@@ -79,7 +79,7 @@
 
     <div class="q-pa-md row items-center justify-evenly q-gutter-md">
       <q-card class="my-card" flat bordered>
-        <img
+        <img alt="elouann"
           src="../assets/img/elouann.png"
         />
 
@@ -97,7 +97,7 @@
         </q-list>
       </q-card>
       <q-card class="my-card" flat bordered>
-        <img src="../assets/img/lise.png" />
+        <img alt="lise" src="../assets/img/lise.png" />
 
         <q-list>
           <q-item clickable>

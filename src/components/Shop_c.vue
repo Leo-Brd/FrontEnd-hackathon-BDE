@@ -9,7 +9,7 @@
             <ul>
                 <li class="products">
                    <div>
-                       <img src="../assets/img/sac.jpg" alt="">
+                       <img src="../assets/img/sac.jpg" alt="sac">
                    </div>
                    <span>SAC</span>
                    <span class="prix">15€</span>
@@ -17,7 +17,7 @@
                 </li>
                  <li class="products">
                     <div>
-                        <img src="../assets/img/pull.jpg" alt="">
+                        <img src="../assets/img/pull.jpg" alt="pull">
                     </div>
                     <span>SWEAT A CAPUCHE</span>
                     <span class="prix">35€</span>
@@ -25,7 +25,7 @@
                  </li>
                  <li class="products">
                     <div>
-                        <img src="../assets/img/tshirt.jpg" alt="">
+                        <img src="../assets/img/tshirt.jpg" alt="tshirt">
                     </div>
                     <span>T-SHIRT</span>
                     <span class="prix">20€</span>
@@ -33,7 +33,7 @@
                  </li>
                  <li class="products">
                     <div>
-                        <img src="../assets/img/casquette.jpg" alt="">
+                        <img src="../assets/img/casquette.jpg" alt="casquette">
                     </div>
                     <span>T-SHIRT</span>
                     <span class="prix">20€</span>
@@ -41,7 +41,7 @@
                  </li>
                  <li class="products">
                     <div>
-                        <img src="../assets/img/mug.jpg" alt="">
+                        <img src="../assets/img/mug.jpg" alt="mug">
                     </div>
                     <span>T-SHIRT</span>
                     <span class="prix">20€</span>
@@ -49,7 +49,7 @@
                  </li>
                  <li class="products">
                     <div>
-                        <img src="../assets/img/sweat.jpg" alt="">
+                        <img src="../assets/img/sweat.jpg" alt="sweat">
                     </div>
                     <span>T-SHIRT</span>
                     <span class="prix">20€</span>

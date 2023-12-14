@@ -10,7 +10,7 @@
         </div>
         
         <div class="right">
-            <img alt="image d'accueil" src="../assets/img/page-acceuil.png">
+            <img alt="image d'accueil" src="../assets/img/logoBDE.png">
         </div>
     </section>
 </template>
@@ -37,6 +37,8 @@
 
 #home .left {
     width: 40%;
+    margin-left: 0vh;
+    text-align: center;
 }
 #home .left h1 {
     font-size: 35px;
